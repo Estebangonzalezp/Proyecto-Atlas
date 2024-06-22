@@ -1,0 +1,975 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/banner-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.contenedorUno{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedorUno img{
+    margin-top: 4.8%;
+    margin-left: 9.4%;
+    width: 5.8%;
+}
+
+.contenedorUno h3{
+    color: #fff;
+    letter-spacing: 0px;
+    font-size: 21px;
+    font-weight: 2;
+    font-family:   Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 6.6%;
+    margin-right: 10%;
+}
+/* -.-.-.-.-.-.-.-.--..-.-.-..--..--..-.-.--.-..-.-.--.-.-.-.-.-.-. */
+.contenedorDos  {
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* background-color: red; */
+    display: flex;
+    height: 99%;
+}
+
+.contenedorDos h1{
+    color: white;
+    font-size: 70px;
+    margin-left: 9%;
+    line-height: 72px;
+}
+
+.contenedorDos p{
+    opacity: .8;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 50;
+    margin-left: 9%;
+    color: #fff;
+    font-family:   Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.contenedorDos .botonHeader{
+    border-radius: 15rem;
+    color: #1a245f;
+    background-color: #00ffae;
+    width: 11%;
+    height: 45px;
+    margin-left: 9%;
+    margin-bottom: 30px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.Principal{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.tituloH2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    margin-top: 4%;
+    font-size: 45px;
+}
+
+.contenedorHijo{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hijo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hijo p,h2{
+    opacity: .8;
+    line-height: 25px;
+}
+
+.cajagradiente{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: linear-gradient(168deg, #fff 35%, #00ffae 0);
+    height: 1000px;
+}
+
+.cajagradiente img{
+    width: 480px;
+}
+
+.primerHijo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.primerHijo img{
+    margin-right: 140px;
+
+}
+
+.hijoTexto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 9%;
+    height: 85%;
+    width: 45%;
+}
+
+.hijoTexto h2{
+    font-size: 45px;
+    font-weight: 790;
+    line-height: 50px;
+    
+}
+.hijoTexto p {
+    opacity: .8;
+    line-height: 25px;
+}
+
+.hijoTexto .botonCajaTexto{
+    border-radius: 15rem;
+    color: #fff;
+    width: 25%;
+    height: 45px;
+    border-style: none;
+    background-color: #1a245f;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* .-.-.-.-..- */
+
+.segundoHijo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.segundoHijoTexto{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    height: 85%;
+    width: 45%;
+}
+
+.segundoHijoTexto h2{
+    font-size: 45px;
+    font-weight: 790;
+    
+}
+.segundoHijoTexto p {
+    opacity: .8;
+    line-height: 25px;
+}
+
+.segundoHijo img{
+    margin-left:45px;
+}
+
+.segundoHijoTexto .botonCajaTexto{
+    border-radius: 15rem;
+    color: #fff;
+    width: 25%;
+    height: 45px;
+    border-style: none;
+    background-color: #1a245f;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* .-.-.-.-.-.-..-.-.----..----.-.-.-.--.-.-.-.-.-.-..--.-.-.-.-.-.-.-. */
+.cajaPrecios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+    width: 100%;
+}
+.cajaPrecios .tituloPrecios{
+    margin-top: 125px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.todaslascajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+.boxPrecio{
+    margin: 1px;
+    height: 470px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxColor{
+    background-color: #1A2740;    
+    color: white;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.boxPrecio .container p{ 
+    width: 100PX;
+    display: flex   ;
+    justify-content: end;
+    align-items: end;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.pe{
+    font-weight: 100;
+}
+
+.numeros{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.boxPrecio .div h2{
+    display: flex;
+    align-items: end;
+}
+
+.boxPrecio .div {
+    height: 95px;
+}
+
+.textos{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.botoncajas{
+    background-color:white;
+    border-color: #1a245f;
+    color: #1a245f;
+    border-radius: 40px;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 800;
+    border-style: solid;
+}
+
+
+.botonmedio{
+    border-radius: 15rem;
+    color: #1a245f;
+    background-color: #00ffae;
+    width:  120px;
+    height: 45px;
+    margin-bottom: 10px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* -.---.-.-.---.-.--.-.-.-..-. */
+
+.compañias{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #edeff0;
+    width: 100%;
+    height: 200px;
+}
+
+.containerContact{
+    background-image: url(../img/contact-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactInfo{
+    height: 280px;
+    width: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+
+.contactInfo h2{
+    font-size: 45px;
+}
+
+footer{
+    height: 20vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    width: 550px;
+}
+
+.nameEmail{
+    display: flex;
+    justify-content: space-between;
+}
+.cajanameEmail{
+    width: 50%;
+}
+#name, #email{
+    height: 40px;
+    width: 270px ;
+    margin-bottom: 30px;
+}
+
+.cajamensaje{
+    width: 100%;
+}
+
+#mensaje{
+    height: 100px;
+    width: 100%;
+}
+
+#mensaje,#name,#email{
+    background-color: transparent ;
+    border-radius: 7px;
+    border-color: #00ffae;
+}
+
+label{
+    color: #00ffae;
+
+}
+
+.BOTONCONTACT{
+    margin-top: 20px;
+    border-radius: 15rem;
+    color: #1a245f;
+    background-color: #00ffae;
+    width:100%;
+    height: 45px;
+    margin-bottom: 10px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+footer{
+    background-color: #192440;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.redesSociales{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+}
+
+.redesSociales img{
+    width: 35px;
+}
+
+@media (max-width: 920px) {
+    header {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .contenedorUno {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorUno img {
+        margin: 0 auto;
+        width: 10%;
+    }
+
+    .contenedorUno h3 {
+        margin-top: 10px;
+        margin-right: 0;
+        font-size: 18px;
+    }
+
+    .contenedorDos h1 {
+        font-size: 50px;
+        margin-left: 5%;
+        line-height: 55px;
+    }
+
+    .contenedorDos p {
+        font-size: 20px;
+        line-height: 22px;
+        margin-left: 5%;
+    }
+
+    .contenedorDos .botonHeader {
+        width: 20%;
+        height: 40px;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+
+    .tituloH2 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .contenedorHijo {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .hijo {
+        margin-bottom: 20px;
+    }
+
+    .cajagradiente {
+        height: auto;
+    }
+
+    .cajagradiente img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .primerHijo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hijoTexto {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .segundoHijo {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .segundoHijo img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cajaPrecios {
+        height: auto;
+    }
+
+    .tituloPrecios {
+        font-size: 35px;
+    }
+
+    .todaslascajas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxPrecio {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .numeros {
+        font-size: 80px;
+    }
+
+    .compañias {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .compañias img {
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    .containerContact {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .contactInfo {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .nameEmail {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cajanameEmail {
+        width: 100%;
+    }
+
+    #name, #email {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #mensaje {
+        width: 100%;
+    }
+
+    .BOTONCONTACT {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .redesSociales {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .redesSociales img {
+        width: 30px;
+        margin:0 10 px;
+}
+
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .contenedorUno {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorUno img {
+        margin: 0 auto;
+        width: 15%;
+    }
+
+    .contenedorUno h3 {
+        margin-top: 10px;
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .contenedorDos h1 {
+        font-size: 40px;
+        margin-left: 5%;
+        line-height: 45px;
+    }
+
+    .contenedorDos p {
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 5%;
+    }
+
+    .contenedorDos .botonHeader {
+        width: 30%;
+        height: 40px;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+
+    .tituloH2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .contenedorHijo {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .hijo {
+        margin-bottom: 20px;
+    }
+
+    .cajagradiente {
+        height: auto;
+    }
+
+    .cajagradiente img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .primerHijo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hijoTexto {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .segundoHijo {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .segundoHijo img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .cajaPrecios {
+        height: auto;
+    }
+
+    .tituloPrecios {
+        font-size: 30px;
+    }
+
+    .todaslascajas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxPrecio {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .numeros {
+        font-size: 70px;
+    }
+
+    .compañias {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .compañias img {
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    .containerContact {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .contactInfo {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .nameEmail {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cajanameEmail {
+        width: 100%;
+    }
+
+    #name, #email {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #mensaje {
+        width: 100%;
+    }
+
+    .BOTONCONTACT {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .redesSociales {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .redesSociales img {
+        width: 30px;
+        margin: 0 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    header {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    .contenedorUno {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorUno img {
+        margin: 0 auto;
+        width: 20%;
+    }
+
+    .contenedorUno h3 {
+        margin-top: 10px;
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .contenedorDos h1 {
+        font-size: 30px;
+        margin-left: 5%;
+        line-height: 35px;
+    }
+
+    .contenedorDos p {
+        font-size: 16px;
+        line-height: 18px;
+        margin-left: 5%;
+    }
+
+    .contenedorDos .botonHeader {
+        width: 50%;
+        height: 35px;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+
+    .tituloH2 {
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contenedorHijo {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .hijo {
+        margin-bottom: 20px;
+    }
+
+    .cajagradiente {
+        height: auto;
+    }
+
+    .cajagradiente img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .primerHijo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hijoTexto {
+        width: 90%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .segundoHijo {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .segundoHijo img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cajaPrecios {
+        height: auto;
+    }
+
+    .tituloPrecios {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .todaslascajas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxPrecio {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .numeros {
+        font-size: 50px;
+    }
+
+    .compañias {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .compañias img {
+        width: 70%;
+        margin: 10px 0;
+    }
+
+    .containerContact {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .contactInfo {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    .nameEmail {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cajanameEmail {
+        width: 100%;
+    }
+
+    #name, #email {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #mensaje {
+        width: 100%;
+    }
+
+    .BOTONCONTACT {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .redesSociales {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .redesSociales img {
+        width: 25px;
+        margin: 0 10px;
+    }
+    
+}
+
